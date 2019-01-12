@@ -1,0 +1,44 @@
+# Copyright 2018 Alexander L. Hayes
+
+title: "Proactive Health Informatics"
+email: hayesall@indiana.edu
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
+twitter_username: IUProHealth
+github_username:  IUProHealth
+feed:
+  path: atom.xml
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+include:
+  - .htaccess
+  - _pages
+  - ["_pages"]
+exclude:
+  - .bundle
+  - Gemfile
+  - LICENSE
+  - vendor
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
