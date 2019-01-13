@@ -12,7 +12,7 @@
       }
 
       .animate-pop-in {
-        animation: pop-in .6s ease-out forwards;
+        animation: pop-in .6s cubic-bezier(0, 0.95, 0.4, 1.4) forwards;
       }
 
       .brand-heading {
@@ -30,6 +30,7 @@
       <div class="intro-body">
         <div class="container content-section">
           <h1 class="brand-heading animate-pop-in">{{ site.title }}</h1>
+          <br><br>
           <p class="intro-text animate-pop-in">{{ site.description }}<br>
           <a href="#about" class="btn btn-circle page-scroll">
             <i class="fa fa-angle-double-down animated"></i>

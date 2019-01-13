@@ -1,17 +1,47 @@
     <!-- Download Section -->
+    <style>
+      @keyframes slide-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-4rem) scale(1);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .animate-slide-in-left {
+        animation: slide-in-left .8s ease-out forwards;
+        background-color: #191919;
+        box-shadow: 5px 10px #4A3C31;
+        padding: 2.5%;
+        text-align: left;
+      }
+
+      .faculty-link {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+      }
+
+    </style>
+
     <section id="download" class="content-section text-center">
         <div class="download-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+              <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-8 animate-slide-in-left">
                     <h2>Get Involved</h2>
-                    <p>ProHealth has a series of training programs for K-12 students, undergraduate, graduate, and postdoctoral researchers to develop the next generation of innovators and scholars.</p>
-                    <p>Get more involved or learn more about our program:</p>
+                    <p>ProHealth has programs for K-12 students, undergraduate, graduate, and postdoctoral researchers to train the next generation of innovators and scholars.</p>
+                    <p>Learn more about our program:</p>
                     <ul>
-                      <li>Take a class taught by one of our faculty members: Kay Connelly, Katie Siek, Sriraam Natarajan, Patrick Shih, or James Clawson.</li>
-                      <li>Consider applying for an undergraduate research opportunity. We advise students in the UROC, SROC, I499, Y499, CEWiT, ProHealth REU Site, various scholars around campus (e.g., Cox Scholars), CRA-W CREU and DREUs.</li>
+                      <li>Take a class taught by one of our faculty members: <a class="faculty-link" href="http://wphomes.soic.indiana.edu/connelly/">Kay Connelly</a>, <a class="faculty-link" href="https://wphomes.soic.indiana.edu/ksiek/">Katie Siek</a>, <a class="faculty-link" href="http://utdallas.edu/~sriraam.natarajan/">Sriraam Natarajan</a>, <a class="faculty-link" href="http://patshih.soic.indiana.edu/">Patrick Shih</a>, or <a class="faculty-link" href="https://jamesclawson.com/">James Clawson</a>.</li>
+                      <li>Consider applying for an undergraduate research opportunity. We advise students in the <a class="faculty-link" href="https://www.sice.indiana.edu/faculty-research/student-research/uroc/">UROC</a>, <a class="faculty-link" href="https://www.sice.indiana.edu/faculty-research/student-research/sroc/">SROC</a>, <a class="faculty-link" href="https://soic.iupui.edu/courses/info-i499/">I499</a>, <a class="faculty-link" href="https://www.sice.indiana.edu/undergraduate/courses/index.html?number=y499&department=csci">Y499</a>, <a class="faculty-link" href="http://cewit.indiana.edu/">CEWiT</a>, <a class="faculty-link" href="https://prohealth.sice.indiana.edu/research-2/reu/">ProHealth REU Site</a>, various scholars around campus (e.g., Cox Scholars), <a class="faculty-link" href="https://cra.org/cra-w/for-undergraduates/">CRA-W CREU and DREUs</a>.</li>
                       <li>See our faculty and graduate student research projects and talk to them about their projects during office hours (for faculty) or email the graduate students about their availability.</li>
                     </ul>
                 </div>
             </div>
         </div>
+      </div>
     </section>

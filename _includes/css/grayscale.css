@@ -269,15 +269,30 @@ a:focus {
 }
 
 .download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.download-section::after {
+  content: "";
+  background: url(/img/downloads-bg.jpg) no-repeat center;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 #map {
