@@ -1,0 +1,43 @@
+ <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-expand-lg fixed-top" role="navigation">
+  <div class="container">
+    {% if page.title == 'Proactive Health (ProHealth) Informatics at Indiana University Bloomington' %}
+    <a class="navbar-brand page-scroll" href="#page-top">
+      <span class="light">IU</span> ProHealth
+    </a>
+    {% else %}
+    <a class="navbar-brand" href="/">
+       <span class="light">IU</span> ProHealth
+    </a>
+    {% endif %}
+
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-main-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item pl-3">
+        <a class="nav-link page-scroll" href="#about">About</a>
+      </li>
+    <li class="nav-item dropdown pl-3">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Programs
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">K-12 Outreach</a>
+        <a class="dropdown-item" href="/reu/">Undergraduate Research</a>
+      </div>
+    </li>
+    <li class="nav-item pl-3">
+      <a class="nav-link" href="/people/">People</a>
+    </li>
+    <li class="nav-item pl-3">
+      <a class="nav-link" href="/publications/">Publications</a>
+    </li>
+    </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+  </div>
+</nav>

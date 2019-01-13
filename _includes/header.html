@@ -1,0 +1,39 @@
+    <!-- Intro Header -->
+    <style>
+      @keyframes pop-in {
+        0% {
+          opacity: 0;
+          transform: translateZ(-1rem) scale(.9);
+        }
+        100% {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .animate-pop-in {
+        animation: pop-in .6s ease-out forwards;
+      }
+
+      .brand-heading {
+        animation-delay: 0.2s;
+        opacity: 0;
+      }
+
+      .intro-text {
+        animation-delay: 0.8s;
+        opacity: 0;
+      }
+    </style>
+
+    <header class="intro animate-ease-right">
+      <div class="intro-body">
+        <div class="container content-section">
+          <h1 class="brand-heading animate-pop-in">{{ site.title }}</h1>
+          <p class="intro-text animate-pop-in">{{ site.description }}<br>
+          <a href="#about" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </header>

@@ -1,0 +1,347 @@
+# Copyright 2019 Alexander L. Hayes
+
+## File: reu_people.yml
+## Author: Alexander L. Hayes
+## Last Updated: Saturday, January 12, 2019
+## Description: REU people accessible with Liquid.
+##
+##
+## Overview of Options:
+##
+## name         : "Alexander L. Hayes"
+## avatar       : # path of person's image, e.g. "/img/reu/people/alh.jpg"
+## lastname     : "Hayes" # (only used for sorting)
+## year         : Year in REU
+## bio          :
+## university   : "Indiana University Bloomington"
+## major        : "Computer Science"
+## minor        : "Security"
+## graduation   : "2017"
+## uri          : "https://hayesall.com/"
+## project      : "Predicting Drug-Drug Interactions from Text using NLP and Privileged Information"
+## mentors      : "Professor Sriraam Natarajan and Devendra Singh Dhami"
+## poster       : # path to poster
+## paper        : # path to paper
+## blog         : # path to blog
+## video        : # path to video
+## twitter      : # link to twitter
+## linkedin     : # link to linkedin
+##
+
+# ----- 2016 REU -----
+
+Grace Bastin:
+  name: "Grace Bastin"
+  lastname: "Bastin"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/gbastin_dsc_0042-1.jpg"
+  university: "Indiana University Purdue University Indianapolis"
+  major: "Informatics"
+  minor: "English"
+  graduation: "2019"
+  uri: "https://gracebastin.wordpress.com/"
+  project: "Matching for Support: A Scenario-Based Design on Creating a Platform for the Rare Disease Population"
+  mentors: "Professor Patrick Shih and Fernando Maestro"
+  poster: "http://prohealth.sice.indiana.edu/files/2016/09/bastin_pereira_poster.pdf"
+  paper: "https://wii.sice.indiana.edu/files/2016/08/2017CHI_BastinPereira_RareDiseaseFacebookApp.pdf"
+  blog: "http://wii.sice.indiana.edu/gracesblog/"
+
+Anne Effron:
+  name: "Anne Effron"
+  lastname: "Effron"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/aeffron_dsc_0079.jpg"
+  university: "Indiana University Bloomington"
+  major: "Informatics"
+  minor: "Biology"
+  graduation: "2019"
+  uri: "https://anneffron.wordpress.com/"
+  project: "Let me Know if You Need Anything: Support Reality for New Mothers"
+  mentors: "Professor Katie Siek and Annu Prabhakar"
+  poster: "http://prohealth.sice.indiana.edu/files/2016/09/effron_poster.jpg"
+  paper: "http://prohealth.sice.indiana.edu/files/2016/09/effron_paper.pdf"
+  blog: "http://wii.sice.indiana.edu/annesblog/"
+
+Alexander Hayes:
+  name: "Alexander L. Hayes"
+  lastname: "Hayes"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/ahayes_dsc_0128.jpg"
+  university: "Indiana University Bloomington"
+  major: "Computer Science"
+  minor: "Security"
+  graduation: "2017 (Ph.D. Student at IU)"
+  uri: "https://hayesall.com/"
+  project: "Predicting Drug-Drug Interactions from Text using NLP and Privileged Information"
+  mentors: "Professor Sriraam Natarajan and Devendra Singh Dhami"
+  poster: "http://prohealth.sice.indiana.edu/files/2017/11/hayes-smith-poster.pdf"
+  paper: "http://prohealth.sice.indiana.edu/files/2016/09/hayes_smith_paper.pdf"
+  blog: "http://wii.sice.indiana.edu/alexandersblog/"
+  twitter: "alexanderlhayes"
+  linkedin: "alexanderlhayes"
+
+Jonique Henry:
+  name: "Jonique Henry"
+  lastname: "Henry"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/jhenry_dsc_0123.jpg"
+  university: "Queensborough Community College"
+  major: "Computer Information Systems"
+  graduation: "2019"
+  project: "Predicting Data Leaks in Health Apps"
+  mentors: "Professor Raquel Hill and Mohsen Sayyadiharikandeh"
+  paper: "http://prohealth.sice.indiana.edu/files/2016/10/mwandu_paper.pdf"
+  blog: "http://wii.sice.indiana.edu/joniquesblog/"
+
+Shayan Khokhar:
+  name: "Shayan Khokhar"
+  lastname: "Khokhar"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/skhokhar_dsc_0162.jpg"
+  university: "Indiana University Bloomington"
+  major: "Computer Science"
+  graduation: "2018 (Signed with Amazon)"
+  project: "Wireless Knee Brace for High Impact Physical Activity"
+  mentors: "Professor Katie Siek"
+  poster: "https://flic.kr/p/KuhFjx"
+  blog: "http://wii.sice.indiana.edu/category/shayan-blog/"
+
+Aislinn McAvoy:
+  name: "Aislinn McAvoy"
+  lastname: "McAvoy"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/amcavoy_dsc_0994.jpg"
+  university: "Valparaiso University"
+  major: "Computer Engineering and German"
+  graduation: "2018"
+  uri: "http://aislinnmcavoy.wixsite.com/mysite"
+  project: "Detecting Stress in Pregnant Women and New Mothers"
+  mentors: "Professor Kay Connelly and Majdah Alsheri"
+
+Devon Mensching:
+  name: "Devon Mensching"
+  lastname: "Mensching"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/dmensching_dsc_0109.jpg"
+  university: "DePauw University"
+  major: "Computer Science and Mathematics"
+  minor: "Philosophy"
+  graduation: "2017 (Currently: IBM Watson)"
+  uri: "https://devonmensching.wordpress.com/"
+  project: "Detecting Stress in Pregnant Women and New Mothers"
+  mentors: "Professor Kay Connelly and Majdah Alsheri"
+
+Joshua Mwandu:
+  name: "Joshua Mwandu"
+  lastname: "Mwandu"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/jmwandu_dsc_0157.jpg"
+  university: "University of Mary Washington"
+  major: "Computer Science and Mathematics"
+  minor: "Data Science"
+  graduation: "2017 (Currently: Graduate Student at Syracuse University)"
+  project: "Predicting Data Leaks in Health Apps"
+  mentors: "Professor Raquel Hill and Mohsen Sayyadiharikandeh"
+  paper: "http://prohealth.sice.indiana.edu/files/2016/10/mwandu_paper.pdf"
+  blog: "http://wii.sice.indiana.edu/joshuasblog/"
+
+Vanessa Pereira:
+  name: "Vanessa Pereira"
+  lastname: "Pereira"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/vpereira_dsc_0017.jpg"
+  university: "Indiana University-Purdue University Indianapolis"
+  major: "Informatics"
+  minor: "Business"
+  graduation: "2019"
+  uri: "http://vanessaapereira.wordpress.com/"
+  project: "Matching for Support: A Scenario-Based Design on Creating a Platform for the Rare Disease Population"
+  mentors: "Professor Patrick Shih and Fernando Maestro"
+  poster: "http://prohealth.sice.indiana.edu/files/2016/09/bastin_pereira_poster.pdf"
+  paper: "https://wii.sice.indiana.edu/files/2016/08/2017CHI_BastinPereira_RareDiseaseFacebookApp.pdf"
+  blog: "http://wii.sice.indiana.edu/vanessasblog/"
+
+Olivia Richards:
+  name: "Olivia Richards"
+  lastname: "Richards"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/orichards_dsc_0949.jpg"
+  university: "Pennsylvania State University"
+  major: "Mathematics"
+  graduation: "2019"
+  uri: "http://psutea.wix.com/olivia"
+  project: "Empowering Older Adult Creative Groups Using Maker Technology"
+  mentors: "Professor Katie Siek and Ben Jelen"
+  poster: "http://prohealth.sice.indiana.edu/files/2016/10/richards_whitman_poster.pdf"
+  paper: "http://prohealth.sice.indiana.edu/files/2017/11/richards-whitman.pdf"
+  blog: "https://wii.sice.indiana.edu/oliviasblog/"
+
+Samantha Whitman:
+  name: "Samantha Whitman"
+  lastname: "Whitman"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/swhitman_dsc_0943.jpg"
+  university: "Arizona State University"
+  major: "Health Sciences (Health Policy)"
+  graduation: "2017 (Currently: Ph.D. Student at ASU)"
+  uri: "http://samwhitman.wix.com/home"
+  project: "Empowering Older Adult Creative Groups Using Maker Technology"
+  mentors: "Professor Katie Siek and Ben Jelen"
+  poster: "http://prohealth.sice.indiana.edu/files/2016/10/richards_whitman_poster.pdf"
+  paper: "http://prohealth.sice.indiana.edu/files/2017/11/richards-whitman.pdf"
+  blog: "http://wii.sice.indiana.edu/samanthasblog/"
+
+Savannah Smith:
+  name: "Savannah Smith"
+  lastname: "Smith"
+  year: "2016"
+  avatar: "https://prohealth.sice.indiana.edu/files/2016/10/ssmith_dsc_0086.jpg"
+  university: "Valparaiso University"
+  major: "Computer Engineering"
+  graduation: "2018"
+  uri: "https://savannahkimbree.wordpress.com/"
+  project: "Predicting Drug-Drug Interactions from Text using NLP and Privileged Information"
+  mentors: "Professor Sriraam Natarajan and Devendra Singh Dhami"
+  poster: "http://prohealth.sice.indiana.edu/files/2017/11/hayes-smith-poster.pdf"
+  paper: "http://prohealth.sice.indiana.edu/files/2016/09/hayes_smith_paper.pdf"
+  blog: "http://wii.sice.indiana.edu/savannahsblog/"
+
+# ----- 2017 REU -----
+
+Ujjwal Baskota:
+  name: "Ujjwal Baskota"
+  lastname: "Baskota"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/JJ.jpg"
+  university: "Jackson State University"
+  major: "Computer Science"
+  minor: "Economics"
+  graduation: "2019"
+  uri: "https://madalmandal97.wixsite.com/ujjwal"
+  project: "Studying the Way People Rate their Physicians Online"
+  mentors: "Professor Katie Siek and Professor Jen Mankoff"
+
+Gabrielle Cantor:
+  name: "Gabrielle Cantor"
+  lastname: "Cantor"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Gabi-2017.jpg"
+  university: "Indiana University Bloomington"
+  major: "Intelligent Systems Engineering"
+  minor: "Urban Planning and Development"
+  graduation: "2020"
+  uri: "http://gcantor9.wixsite.com/gabriellecantor"
+  project: "Discordant Chronic Comorbidities"
+  mentors: "Professor Patrick Shih, Professor James Clawson, Professor Kay Connelly, and Tom Ongwere"
+
+Ciabhan Connelly:
+  name: "Ciabhan Connelly"
+  lastname: "Connelly"
+  year: "2017"
+  avatar: "http://prohealth.sice.indiana.edu/files/2017/11/Ciabhan-2017.jpg"
+  university: "Indiana University Bloomington"
+  major: "Political Science"
+  minor: "Computer Science and French"
+  graduation: "2020"
+  uri: "https://ciabhanconnelly.com/"
+  project: "ARC Method Blueprint"
+  mentors: "Professor Patrick Shih and Fernando Maestro"
+
+Julia Dunbar:
+  name: "Julia Dunbar"
+  lastname: "Dunbar"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Julia-2017.jpg"
+  university: Siena College
+  major: "Computer Science"
+  minor: "Cognitive Science"
+  graduation: "2018 (Currently: Ph.D. Student at University of Washington)"
+  uri: "https://jc19dunb.wixsite.com/juliadunbar"
+  project: "ARC Method Blueprint"
+  mentors: "Professor Patrick Shih and Fernando Maestro"
+
+Anne Freeman:
+  name: "Anne Freeman"
+  lastname: "Freeman"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Anne-2017.jpg"
+  university: "Georgetown University"
+  major: "Computer Science"
+  graduation: "2019"
+  uri: "https://annefreeman22.wixsite.com/home"
+  project: "Empowering Older Adult Crafters to Electronically Enhance Artifacts"
+  mentors: "Professor Katie Siek and Ben Jelen"
+
+Max Girard:
+  name: "Max Girard"
+  lastname: "Girard"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Max-2017.jpg"
+  university: "Simmons College"
+  major: "Computer Science"
+  minor: "English"
+  graduation: "2018"
+  uri: "https://maxmgirard.wixsite.com/home"
+  project: "Technology as an Effective Tool for Grief"
+  mentors: "Professor Patrick Shih, Professor James Clawson, and Anna Baglione"
+
+Rob Long:
+  name: "Rob Long"
+  lastname: "Long"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Rob-2017.jpg"
+  university: "DePauw University"
+  major: "Computer Science"
+  minor: "Religious Studies"
+  graduation: "2018 (Graduate Student at IU Bloomington)"
+  uri: "http://robertlongpersonalwebsite.wordpress.com/"
+  project: "Bayesian Network Data for Cardiovascular Learning"
+  mentors: "Professor Sriraam Natarajan and Nandini Ramanan"
+
+Mina Narayanan:
+  name: "Mina Narayanan"
+  lastname: "Narayanan"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Mina-2017.jpg"
+  university: "Auburn University"
+  major: "Computer Science"
+  graduation: "2019"
+  uri: "https://minamjn.wixsite.com/minaraya"
+  project: "Empowering Older Adult Crafters to Electronically Enhance Artifacts"
+  mentors: "Professor Katie Siek and Ben Jelen"
+
+Meagan Price:
+  name: "Meagan N. Price"
+  lastname: "Price"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Meagan-2017.jpg"
+  university: "Claflin University"
+  major: "Computer Engineering"
+  graduation: "2019"
+  uri: "https://meagannprice.wordpress.com/"
+  project: "Technology as an Effective Tool for Grief"
+  mentors: "Professor Patrick Shih, Professor James Clawson, and Anna Baglione"
+
+Sergio Martin:
+  name: "Sergio Ramirez Martin"
+  lastname: "Martin"
+  year: "2017"
+  avatar: "https://prohealth.sice.indiana.edu/files/2017/11/Sergio-2017.jpg"
+  university: "Transylvania University"
+  major: "Computer Science, Mathematics, and Physics"
+  graduation: "2018 (Currently: Ph.D. Student at Carnegie Mellon University)"
+  uri: "https://sergiormrz560.wixsite.com/sergioramirezmartin"
+  project: "Discordant Chronic Comorbidities"
+  mentors: "Professor Patrick Shih, Professor James Clawson, Professor Kay Connelly, and Tom Ongwere"
+
+Kate Sanders:
+  name: "Kate Sanders"
+  lastname: "Sanders"
+  year: "2017"
+  avatar: "http://prohealth.sice.indiana.edu/files/2017/11/Kate-2017.jpg"
+  university: "Hendrix College"
+  major: "Computer Science"
+  graduation: "2020"
+  uri: "https://katesandersresearch.wordpress.com/"
+  project: "Bayesian Network Data for Cardiovascular Learning"
+  mentors: "Professor Sriraam Natarajan and Nandini Ramanan"

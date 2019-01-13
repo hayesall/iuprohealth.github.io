@@ -1,11 +1,11 @@
-# Copyright 2018 Alexander L. Hayes
+# Copyright 2019 Alexander L. Hayes
 
-title: "Proactive Health Informatics"
-email: hayesall@indiana.edu
+title: "ProHealth"
+email: hayesall@iu.edu
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We design, develop, and evaluate intelligent learning systems
+  to empower lay people to better understand, manage, and
+  improve their health.
 baseurl: ""
 url: ""
 twitter_username: IUProHealth
@@ -30,6 +30,22 @@ exclude:
   - Gemfile
   - LICENSE
   - vendor
+
+permalink: pretty
+
+color:
+  primary-dark: '#990000'
+  links: '#EDEBEB'
+
+# Footer settings
+footer: Proactive Health Informatics at Indiana University, Bloomington
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/IUProHealth
+  - title: github
+    url: https://github.com/IUProHealth
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
