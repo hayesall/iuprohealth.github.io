@@ -3,15 +3,15 @@
 
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
+    {% include head.liquid %}
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    {% include nav.html %}
+    {% include nav.liquid %}
 
     <section id="{{ page.title }}" class="container content-section">
       {{ content }}
     </section>
 
-    {% include footer.html %}
-    {% include js.html %}
+    {% include footer.liquid %}
+    {% include js.liquid %}
     </body>
 </html>
