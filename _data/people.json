@@ -1,0 +1,46 @@
+{
+  "faculty": [
+    {
+      "name": "Katie A. Siek",
+      "lastname": "Siek",
+      "uri": "https://wphomes.soic.indiana.edu/ksiek/"
+    },
+    {
+      "name": "Kay Connelly",
+      "lastname": "Siek",
+      "uri": "http://wphomes.soic.indiana.edu/connelly/"
+    },
+    {
+      "name": "James Clawson",
+      "lastname": "Clawson",
+      "uri": "http://jamesclawson.com/"
+    }
+  ],
+  "students": [
+    {
+      "name": "Alexander L. Hayes",
+      "lastname": "Hayes",
+      "uri": "https://hayesall.com/",
+      "class": "current"
+    },
+    {
+      "name": "Ben Jelen",
+      "lastname": "Jelen",
+      "uri": "https://wphomes.soic.indiana.edu/bcjelen/",
+      "class": "current"
+    },
+    {
+      "name": "Annu Sible Prabhakar",
+      "lastname": "Prabhakar",
+      "uri": "http://homes.sice.indiana.edu/asprabha/",
+      "class": "current"
+    },
+    {
+      "name": "Haley MacLeod",
+      "lastname": "MacLeod",
+      "uri": "http://haleymacleod.com/",
+      "class": "alumni",
+      "currently": "UX Researcher at Facebook"
+    }
+  ]
+}
