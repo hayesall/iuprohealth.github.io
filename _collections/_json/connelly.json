@@ -1,0 +1,23 @@
+---
+title: "Kay Connelly"
+uri: "http://wphomes.soic.indiana.edu/connelly/"
+permalink: /json/:title
+---
+
+
+{% assign author_publications = site.data.publications | where_exp:"item", "item.authors contains page.title" %}{
+  "name": "{{ page.title }}",
+  "uri": "{{ page.uri }}",
+  "publications": [{% for publication in author_publications %}
+      {
+        {% if publication.grants %}"grants": ["{{ publication.grants | join: '", "' }}"],{% endif %}
+        {% if publication.bibtex %}"bibtex": "{{ publication.bibtex | strip_newlines }}",{% endif %}
+        {% if publication.pdf %}"pdf": "{{ publication.pdf }}",{% endif %}
+        {% if publication.location %}"location": "{{ publication.location }}",{% endif %}
+        {% if publication.venue %}"venue": "{{ publication.venue }}",{% endif %}
+        "title": {{ publication.title | jsonify }},
+        "authors": ["{{ publication.authors | join: '", "' }}"],
+        "year": {{ publication.year }}
+      }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}

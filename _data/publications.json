@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Local Standards for Anonymization Practices in Health, Wellness, Accessibility, and Aging Research at CHI",
+    "authors": ["Jacob Abbott", "Haley MacLeod", "Novia Nurain", "Gustave Ekobe", "Sameer Patil"],
+    "year": 2019,
+    "venue": "In CHI Conference on Human Factors in Computing Systems Proceedings (CHI 2019)",
+    "location": "May 2-9, 2019, Glasgow, Scotland UK",
+    "doi": "https://doi.org/10.1145/3290605.3300692",
+    "pdf": "http://haleymacleod.com/Papers/2019-chi-anon.pdf"
+  },
+  {
+    "title": "Defining Through Expansion: Conducting Asynchronous Remote Communities (ARC) Research with Stigmatized Groups",
+    "authors": ["Juan F. Maestre", "Haley MacLeod", "Ciabhan L. Connelly", "Julia C. Dunbarl", "Jordan Beck", "Katie A. Siek", "Patrick C. Shih"],
+    "year": 2018,
+    "venue": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+    "location": "April 21-26, Montreal, QC, Canada",
+    "bibtex": "@inproceedings{maestre2018defining,\ntitle={Defining through expansion: conducting asynchronous remote communities (arc) research with stigmatized groups},\nauthor={Maestre, Juan F and MacLeod, Haley and Connelly, Ciabhan L and Dunbar, Julia C and Beck, Jordan and Siek, Katie A and Shih, Patrick C},\nbooktitle={Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},\npages={557},\nyear={2018},\norganization={ACM}\n}",
+    "grants": ["CNS-1560267"]
+  },
+  {
+    "title": "\"Let Me Know If You Need Anything\": Support Realities of New Mothers",
+    "authors": ["Annu Sible Prabhakar", "Lucia Guerra-Reyes", "Anne Effron", "Vanessa M. Kleinschmidt", "Maggie Driscoll", "Charles Peters", "Vanessa Pereira", "Majdah Alshehri", "Tom Ongwere", "Katie A. Siek"],
+    "year": 2017,
+    "venue": "Proceedings of the 11th EAI International Conference on Pervasive Computing Technologies for Healthcare",
+    "pages": "31-40",
+    "pdf": "https://www.researchgate.net/profile/Annu_Prabhakar/publication/316148699_Let_Me_Know_If_You_Need_Anything_Support_Realities_of_New_Mothers/links/58f2cc0da6fdcc11e569edf4/Let-Me-Know-If-You-Need-Anything-Support-Realities-of-New-Mothers.pdf"
+  },
+  {
+    "title": "Boosting for Postpartum Depression Prediction",
+    "authors": ["Sriraam Natarajan", "Annu Prabhakar", "Nandini Ramanan", "Anna Baglione", "Kay Connelly", "Katie A. Siek"],
+    "year": 2017,
+    "venue": "Proceedings of the Second IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)",
+    "pdf": "https://starling.utdallas.edu/assets/pdfs/PPDCHASE17.pdf",
+    "bibtex": "@inproceedings{natarajan2017boosting,\ntitle={Boosting for Postpartum Depression Prediction},\nauthor={Natarajan, Sriraam and Prabhakar, Annu and Ramanan, Nandini and Baglione, Anna and Connelly, Kay and Siek, Katie},\nbooktitle={Proceedings of the Second IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies},\npages={232--240},\nyear={2017},\norganization={IEEE Press}\n}",
+    "grants": ["IIS-1343940", "Precision Health Initiative"]
+  },
+  {
+    "title": "A Cancer Journey Framework: Guiding the Design of Holistic Health Technology",
+    "authors": ["Maia Jacobs", "James Clawson", "Elizabeth D. Mynatt"],
+    "year": 2016,
+    "venue": "Proceedings of the 10th EAI International Conference on Pervasive Technologies for Healthcare (PervasiveHealth '16). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), ICST, Brussels, Belgium, Belgium, 114-121",
+    "pdf": "https://pdfs.semanticscholar.org/f918/de1ba597914618055c1d7993cb84d56299ec.pdf",
+    "bibtex": "@inproceedings{jacobs2015lessons,\ntitle={Lessons learned from a yearlong deployment of customizable breast cancer tablet computers},\nauthor={Jacobs, Maia and Clawson, James and Mynatt, Elizabeth D},\nbooktitle={Proceedings of the conference on Wireless Health},\npages={7},\nyear={2015},\norganization={ACM}\n}"
+  },
+  {
+    "title": "Lessons Learned From a Yearlong Deployment of Customizable Breast Cancer Tablet Computers",
+    "authors": ["Maia Jacobs", "James Clawson", "Elizabeth D. Mynatt"],
+    "year": 2015,
+    "venue": "WH '15: Proceedings of the Wireless Health 2015 on National Institutes of Health. ACM, New York, NY, USA",
+    "pdf": "http://maiajacobs.com/wp-content/uploads/2016/06/WH-15-Lessons-Learned-From-a-Yearlong-Deployment-of-Customizable-Breast-Cancer-Tablet-Computers.pdf"
+  },
+  {
+    "title": "No Longer Wearing: Investigating the Abandonment of Personal Health-tracking Technologies on Craigslist",
+    "authors": ["James Clawson", "Jessica A. Pater", "Andrew D. Miller", "Elizabeth D. Mynatt", "Lena Mamykina"],
+    "year": 2015,
+    "venue": "In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing, UbiComp '15, pages 647-658. ACM, New York, NY, USA, 2015."
+  },
+  {
+    "title": "A Guide to Using Asynchronous Remote Communities (ARC) for Researching Distributed Populations",
+    "authors": ["Haley MacLeod", "Ben Jelen", "Annu Sible Prabhakar", "Lora Oehlberg", "Katie A. Siek", "Kay Connelly"],
+    "year": 2017,
+    "venue": "EAI Endorsed Transactions on Pervasive Health and Technology '17, Issue 11 (07/2017)",
+    "doi": "http://dx.doi.org/10.4108/eai.18-7-2017.1528",
+    "pdf": "http://haleymacleod.com/Papers/2017-etpht-arcguide.pdf"
+  },
+  {
+    "title": "\"Be Grateful You Don’t Have a Real Disease\": Understanding Rare Disease Relationships",
+    "authors": ["Haley MacLeod", "Grace Bastin", "Leslie S. Liu", "Katie A. Siek", "Kay Connelly"],
+    "year": 2017,
+    "venue": "In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI ’17)",
+    "location": "ACM, New York, NY, USA",
+    "pages": "1660–1673",
+    "doi": "http://dx.doi.org/10.1145/3025453.3025796",
+    "pdf": "http://haleymacleod.com/Papers/2017-chi-rarediseasesupport.pdf",
+    "slides": "https://www.slideshare.net/HaleyMacLeod/be-grateful-you-dont-have-a-real-disease-understanding-rare-disease-relationships"
+  },
+  {
+    "title": "Investigating the Suitability of the Asynchronous, Remote, Community-based Method for Pregnant and New Mothers",
+    "authors": ["Annu Sible Prabhakar", "Lucia Guerra-Reyes", "Vanessa M. Kleinschmidt", "Ben Jelen", "Haley MacLeod", "Kay Connelly", "Katie A. Siek"],
+    "year": 2017,
+    "venue": "In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI ’17)",
+    "location": "ACM, New York, NY, USA",
+    "pages": "4924–4934",
+    "doi": "http://dx.doi.org/10.1145/3025453.3025546",
+    "award": "Honourable Mention Award",
+    "pdf": "http://haleymacleod.com/Papers/2017-chi-arcmothers.pdf"
+  },
+  {
+    "title": "Identifying Rare Diseases from Behavioural Data: A Machine Learning Approach",
+    "authors": ["Haley MacLeod", "Shuo Yang", "Kim Oakes", "Kay Connelly", "Sriraam Natarajan"],
+    "year": 2016,
+    "venue": "In Connected Health: Applications, Systems and Engineering Technologies (CHASE)",
+    "pages": "130-139",
+    "doi": "http://dx.doi.org/10.1109/CHASE.2016.7",
+    "pdf": "http://haleymacleod.com/Papers/2016-chase-machinelearning.pdf",
+    "slides": "http://www.slideshare.net/HaleyMacLeod/identifying-rare-diseases-from-behavioural-data-a-machine-learning-approach",
+    "bibtex": ""
+  },
+  {
+    "title": "Asynchronous Remote Communities (ARC) for Researching Distributed Populations",
+    "authors": ["Haley MacLeod", "Ben Jelen", "Annu Sible Prabhakar", "Lora Oehlberg", "Katie A. Siek", "Kay Connelly"],
+    "year": 2016,
+    "venue": "In Proceedings of the 10th EAI International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth ’16)",
+    "location": "ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), ICST, Brussels, Belgium, Belgium",
+    "pages": "1-8",
+    "pdf": "http://haleymacleod.com/Papers/2016-pervasivehealth-arcmethod.pdf",
+    "slides": "http://www.slideshare.net/HaleyMacLeod/asynchronous-remote-communities-arc-for-researching-distributed-populations"
+  },
+  {
+    "title": "MuscleMemory: Identifying the Scope of Wearable Technology in High Intensity Exercise Communities",
+    "authors": ["Kim Oakes, Katie A. Siek", "Maley MacLeod"],
+    "year": 2015,
+    "venue": "In Proceedings of the 9th International Conference on Pervasive Computing Technologies for Healthcare (PervasiveHealth ’15)",
+    "location": "ICST (Institute for Computer Sciences, Social Informatics and Telecommunications Engineering), ICST, Brussels, Belgium, Belgium",
+    "pages": "193-20",
+    "award": "Best Paper Nomination",
+    "pdf": "http://haleymacleod.com/Papers/2015-pervasivehealth-musclememory.pdf"
+  },
+  {
+    "title": "Rare World: Towards Technology for Rare Diseases",
+    "authors": ["Haley MacLeod", "Kim Oakes", "Danika Geisler", "Kay Connelly", "Katie A. Siek"],
+    "year": 2015,
+    "venue": "In Proceedings of the 33rd Annual Conference on Human Factors in Computing Systems (CHI '15)",
+    "location": "ACM, New York, NY, USA",
+    "pages": "1145-1154",
+    "doi": "http://dx.doi.org/10.1145/2702123.2702494",
+    "award": "Honourable Mention Award",
+    "pdf": "http://haleymacleod.com/Papers/2015-chi2015-rareworld.pdf",
+    "slides": "http://www.slideshare.net/HaleyMacLeod/rare-world-towards-technology-for-rare-diseases"
+  }
+]
