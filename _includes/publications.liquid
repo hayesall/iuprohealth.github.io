@@ -1,0 +1,104 @@
+{% comment %}
+publications.liquid
+===================
+
+* Author: Alexander L. Hayes (alexander@batflyer.net)
+* Synopsis: "This is the ``liquid`` that controls how publications are displayed on the page."
+* Copyright: 2019 Alexander L. Hayes
+
+Maintaining
+-----------
+
+This ``liquid`` should be modified *only* if you are interested in changing how the structure
+of publications.
+
+* If you want to add a publication, check the ``_data/publications.json``.
+* If you want to edit *how* publications are displayed, see ``_pages/publications.md``
+  (or an associated ``_layout``).
+* If you want adjust the settings, these are likely stored under the main ``_config.yml``.
+
+{% endcomment %}
+
+{% comment %}
+Buttons for each author.
+{% endcomment %}
+
+<div class="button-group filter-button-group">
+  <button style="white-space: normal" class="button btn btn-default btn-lg active" data-filter="*">All</button>
+{% for investigator in site.publications.investigators %}
+	<button style="white-space: normal" class="button btn btn-default btn-lg" data-filter=".{{ investigator | slugify: "ascii" }}">{{ investigator }}</button>
+{% endfor %}
+</div>
+
+{% comment %}
+Build the list of publications by iterating over the contents of ``publications.json``.
+{% endcomment %}
+
+{% assign publications_by_year = site.data.publications | sort: 'year' | reverse | group_by: 'year' %}
+
+<style>
+.popover-header {
+  background-color: #191919;
+}
+.popover-body {
+  background-color: #4A3C31;
+  color: white;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.grid-item .sub-item {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+</style>
+
+<div class="grid">
+{% for entry in publications_by_year %}
+<div class="grid-item" style="font-size: 25px;">{{ entry["name"] }}</div>
+{% for publication in entry["items"] %}
+<div class="grid-item {% for author in site.publications.investigators %}{% if publication.authors contains author %}{{ author | slugify: "ascii" }} {% endif %}{% endfor %}">
+  {{ publication.authors | join: ", "}}. {{ publication.year }}. "<i>{{ publication.title }}</i>". {{ publication.venue }}
+  <br>
+
+  {% comment %}
+  Extra information about the paper can be included an "overflow section."
+  {% endcomment %}
+  <a data-placement="bottom" data-toggle="popover" title="etc." data-content="{% if publication.pages %}Pages: {{ publication.pages }}. {% endif %}{% if publication.doi %}DOI: <a href='{{ publication.doi }}'>{{ publication.doi }}</a>. {% endif %}{% if publication.location %}{{ publication.location }}. {% endif %}{% if publication.grants %} Funding: {{ publication.grants | join: ", " }}. {% endif %}"><i class="fas fa-ellipsis-h"></i></a>
+
+  {% if publication.pdf %}
+    <a class="sub-item" href="{{ publication.pdf }}"><i class="far fa-file-pdf fa-lg"></i></a>
+  {% endif %}
+
+  {% if publication.bibtex %}
+    <a class="sub-item" data-placement="bottom" data-toggle="popover" title="&quot;{{ publication.title }}&quot;" data-content="{{ publication.bibtex }}"><i class="fas fa-quote-right fa-lg"></i></a>
+  {% endif %}
+
+  {% if publication.slides %}
+    <a class="sub-item" href="{{ publication.slides }}"><i class="fab fa-slideshare fa-lg"></i></a>
+  {% endif %}
+
+</div>
+{% endfor %}
+{% endfor %}
+</div>
+
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script>
+  var grid = document.querySelector('.grid');
+  var iso = new Isotope( grid, {
+    // options...
+    itemSelector: '.grid-item'
+  })
+  var filtersElem = document.querySelector('.filter-button-group');
+  filtersElem.addEventListener( 'click', function( event ) {
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+      return;
+    }
+    var filterValue = event.target.getAttribute('data-filter');
+    iso.arrange({ filter: filterValue });
+  });
+</script>
