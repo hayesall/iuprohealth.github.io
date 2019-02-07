@@ -13,7 +13,7 @@ publications:
   # investigators: Controls who shows up as buttons on the publications page.
   #   * Names must be listed exactly as they are in the ``publications.json``
   #   * They will appear on the page in the same order here
-  investigators: ["Katie A. Siek", "Kay Connelly", "James Clawson"]
+  investigators: ["Chia-Fang Chung", "James Clawson", "Kay Connelly", "Patrick C. Shih", "Katie A. Siek"]
 
 # Collections
 collections_dir: _collections
