@@ -5,11 +5,30 @@
  */
 
 body {
-    width: 100%;
-    height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: {{ site.color.primary-dark }};
+  margin:0;
+  padding:0;
+  height:100%;
+  width: 100%;
+  font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  background-color: {{ site.color.primary-dark }};
+}
+
+#body-container {
+  min-height:100%;
+  position:relative;
+}
+
+#body {
+  padding-bottom: {{ site.footer.height }}px;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: #191919;
+  height: {{ site.footer.height }}px;
 }
 
 html {
@@ -366,11 +385,32 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+  position: relative;
+  padding-top: 24px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  line-height: 42px;
+  background-color: #191919;
 }
 
 footer p {
     margin: 0;
+}
+
+footer .footer-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer .social-icons {
+  font-size: 14px;
+  padding-right: 25px;
+}
+
+footer .copyright {
+  font-size: 11px;
+  padding: 10px;
+  text-align: center;
 }
 
 ::-moz-selection {

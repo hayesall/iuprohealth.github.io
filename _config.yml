@@ -29,7 +29,9 @@ social:
     url: https://github.com/IUProHealth
 
 # Footer settings
-footer: Proactive Health Informatics at Indiana University, Bloomington
+footer:
+  height: 150 # height in pixels
+  copyright: Proactive Health Informatics at Indiana University, Bloomington
 
 title: "ProHealth (Alpha)"
 email: hayesall@iu.edu
