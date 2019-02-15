@@ -10,7 +10,7 @@ layout: article
 Iterate over the possible years, showing a card for each person.
 {% endcomment %}
 
-{% assign total_years = 2017 %}
+{% assign total_years = 2018 %}
 {% for current_year in (2016..total_years) %}
 
   <h2>{{ current_year }}</h2>
