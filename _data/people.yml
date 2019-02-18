@@ -1,0 +1,252 @@
+# People Profiles
+# Transitioning to .yml for better multi-line support.
+
+faculty:
+
+  - Christina_Chung:
+    name: "Christina (Chia-Fang) Chung"
+    lastname: "Chung"
+    email: "?"
+    uri: "http://homes.sice.indiana.edu/cfchung/"
+    photo: "/img/people/Christina_Chung.png"
+    bio: >-
+      Christina Chung Bio.
+
+  - James_Clawson:
+    name: "James Clawson"
+    lastname: "Clawson"
+    email: "clawsonj@indiana.edu"
+    uri: "https://jamesclawson.com"
+    photo: "/img/people/James_Clawson.png"
+    bio: >-
+      James Clawson is an Assistant Professor in the School of Informatics and Computing and a 2015 NIH
+      Mobile Health (mHealth) Scholar. He designs and evaluates novel mobile health technologies that
+      improve communication and collaboration with the goal of increasing patient engagement with their
+      health and encouraging everyday wellness. He received his Ph.D. in Human-Centered Computing from
+      Georgia Tech in 2012, where he focused on improving mobile and wearable input and interaction
+      under the guidance of Thad Starner in the Contextual Computing Group. After receiving his Ph.D.,
+      he worked with Elizabeth Mynatt and a host of wonderful students in the Everyday Computing Lab
+      at Georgia Tech.
+
+  - Kay_Connelly:
+    name: "Kay Connelly"
+    lastname: "Connelly"
+    email: "connelly@indiana.edu"
+    uri: "http://wphomes.soic.indiana.edu/connelly/"
+    photo: "/img/people/Kay_Connelly.png"
+    bio: >-
+      Dr. Kay Connelly is an Associate Professor in the Computer Science Department at Indiana
+      University. She is a codirector of CLEAR Health Information, and the Senior Associate
+      Director of IU's Center for Applied Cybersecurity Research, a part of the Pervasive
+      Technology Institute. She is an active faculty advisor to WIC@IU. Dr. Connelly was on the
+      Program Committee of Pervasive Healthcare in 2011. She received a 2006-2007 Outstanding
+      Junior Faculty Award and the Trustees Teaching Award from Indiana University. Her research
+      focuses on user acceptance of ubiquitous and mobile computing technologies where there is a
+      delicate balance between such factors as convenience, control, and privacy. Dr. Connelly's
+      most recent work emphasizes health and wellness applications that empower both the ill and
+      the healthy to manage and improve their own health and make healthy choices. She has a B.S.
+      and B.A. from Indiana University and a M.S. and Ph.D. from the University of Illinois.
+
+  - Dana_Habeeb:
+    name: "Dana Habeeb"
+    lastname: "Habeeb"
+    email: "?"
+    uri: "http://danahabeeb.com"
+    photo: "/img/people/Dana_Habeeb.png"
+    bio: >-
+      Dana Habeeb Bio.
+
+  - Patrick_Shih:
+    name: "Patrick Shih"
+    lastname: "Shih"
+    email: "patshih@indiana.edu"
+    uri: "http://patshih.soic.indiana.edu/"
+    photo: "/img/people/Patrick_Shih.png"
+    bio: >-
+      Patrick Shih is an Assistant Professor of Informatics in the School of Informatics and Computing
+      at Indiana University Bloomington. He is a Fellow of the Center for Computer-Mediated Communication
+      (CCMC). He is also an affiliated faculty at the Center for the Interactive Study of Animal Behavior
+      (CISAB), the Indiana University Network Science Institute (IUNI), and the Institute for Software
+      Research (ISR) at the University of California, Irvine. His interests are in utilizing mixed methods
+      approaches to tackle research problems in online and geographic communities. Specifically, his
+      current research focuses on leveraging awareness of individual and community activities embedded in
+      sensor technologies, smart devices, social media, and online forums in the design and construction
+      of novel persuasive interfaces and civic engagement platforms that facilitate sustainable,
+      motivational, and behavioral changes.
+
+  - Katie_Siek:
+    name: "Katie A. Siek"
+    lastname: "Siek"
+    email: "ksiek@indiana.edu"
+    uri: "https://wphomes.soic.indiana.edu/ksiek/"
+    photo: "/img/people/Katie_Siek.png"
+    bio: >-
+      Katie Siek is an Associate Professor of Informatics at Indiana University Bloomington. Her
+      primary research interests are in human computer interaction, health informatics, and ubiquitous
+      computing. More specifically, she is interested in how sociotechnical interventions affect
+      personal health and well-being. Her research is supported by the National Institutes of Health,
+      the Robert Wood Johnson Foundation, and the National Science Foundation including a five-year
+      NSF CAREER award. She has been awarded a CRA-W Borg Early Career Award and a Scottish Informatics
+      and Computer Science Alliance Distinguished Visiting Fellowship. Prior to returning to her alma
+      mater, she was a professor for seven years at the University of Colorado Boulder. She earned her
+      Ph.D. and M.S. at Indiana University Bloomington in computer science and her B.S. in computer
+      science at Eckerd College. She was a National Physical Science Consortium Fellow at Indiana
+      University and a Ford Apprentice Scholar at Eckerd College.
+
+students:
+
+  - Alexander_Hayes:
+    name: "Alexander L. Hayes"
+    lastname: "Hayes"
+    uri: "https://hayesall.com/"
+    photo: "/img/people/Alexander_Hayes.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2019
+    bio: >-
+      Alexander L. Hayes is a graduate student pursuing a Ph.D. in Health Informatics. His
+      research interests lie in Artificial Intelligence, Machine Learning, and their
+      applications toward solving Health Informatics problems.
+
+  - Novia_Nurain:
+    name: "Novia Nurain"
+    lastname: "Nurain"
+    uri: ""
+    photo: "/img/people/Novia_Nurain.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2019
+    bio: >-
+      Novia Nurain Bio.
+
+  - Arash_Zakeresfahani:
+    name: "Arash Zakeresfahani"
+    lastname: "Zakeresfahani"
+    uri: ""
+    photo: "/img/people/Arash_Zakeresfahani.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2018
+    bio: >-
+      Arash Zakeresfahani Bio.
+
+  - Rob_Long:
+    name: "Rob Long"
+    lastname: "Long"
+    uri: ""
+    photo: "/img/people/Robert_Long.png"
+    type: "current"
+    degree: "M.S."
+    join_year: 2018
+    bio: >-
+      Robert Long Bio.
+
+  - Cassie_Kresnye:
+    name: "Cassie Kresnye"
+    lastname: "Kresnye"
+    photo: "/img/people/Cassie_Kresnye.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2017
+    bio: >-
+      Cassie Kresnye Bio.
+
+  - Aehong_Min:
+    name: "Aehong Min"
+    lastname: "Min"
+    photo: "/img/people/Aehong_Min.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2016
+    bio: >-
+      Aehong Min Bio.
+
+  - Tom_Ongwere:
+    name: "Tom Ongwere"
+    lastname: "Ongwere"
+    photo: "/img/people/Tom_ongwere.png"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2015
+    bio: >-
+      Tom Ongwere Bio.
+
+  - Juan_Fernando_Maestre:
+    name: "Juan Fernando Maestre"
+    lastname: "Maestre"
+    photo: "/img/people/Juan_Fernando_Maestre.png"
+    uri: "http://juanfernandomaestre.com/wp/"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2015
+    bio: >-
+      Juan Fernando Maestre Bio.
+
+  - Ben_Jelen:
+    name: "Ben Jelen"
+    lastname: "Jelen"
+    photo: "/img/people/Ben_Jelen.png"
+    uri: "https://wphomes.soic.indiana.edu/bcjelen/"
+    type: "current"
+    degree: "Ph.D."
+    join_year: 2015
+    bio: >-
+      Ben Jelen Bio.
+
+  - Haley_MacLeod:
+    name: "Haley MacLeod"
+    lastname: "MacLeod"
+    uri: "http://haleymacleod.com/"
+    type: "alumni"
+    degree: "Ph.D."
+    graduation_year: 2018
+    currently: "UX Researcher at Facebook"
+
+  - Shayan_Khokar:
+    name: "Shayan Khokar"
+    lastname: "Khokar"
+    type: "alumni"
+    degree: "B.S."
+    graduation_year: 2018
+    currently: "Amazon"
+
+  - Anna_Baglione:
+    name: "Anna Baglione"
+    lastname: "Baglione"
+    type: "alumni"
+    degree: "M.S."
+    graduation_year: 2018
+    currently: "University of Virginia"
+
+  - Annu_Sible_Prabhakar:
+    name: "Annu Sible Prabhakar"
+    lastname: "Prabhakar"
+    uri: "http://homes.sice.indiana.edu/asprabha/"
+    type: "alumni"
+    degree: "M.S."
+    graduation_year: 2016
+    currently: "Ph.D. Student"
+
+  - Leslie_Liu:
+    name: "Leslie S. Liu"
+    lastname: "Liu"
+    type: "alumni"
+    degree: "Post-Doctoral Fellow"
+    graduation_year: 2017
+    currently: "Motorola"
+
+  - Shuo_Yang:
+    name: "Shuo Yang"
+    lastname: "Yang"
+    type: "alumni"
+    degree: "Ph.D."
+    graduation_year: 2017
+    currently: "Amobee"
+
+  - Phillip_Odom:
+    name: "Phillip Odom"
+    lastname: "Odom"
+    type: "alumni"
+    degree: "Ph.D."
+    graduation_year: 2017
+    currently: "Georgia Tech"
