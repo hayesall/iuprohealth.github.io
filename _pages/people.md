@@ -5,13 +5,24 @@ layout: article
 ---
 
 <style>
+.prohealth_members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 
-.headshot {
+.prohealth_members .headshot {
+  padding: 10px;
   max-height: 300px;
   max-width: 300px;
   border-radius: 50%;
+  transition: all .2s ease-in-out;
 }
 
+.prohealth_members .headshot:hover {
+  transform: scale(1.1);
+}
 </style>
 
 <h1>{{ page.title }}</h1>
@@ -20,32 +31,39 @@ layout: article
 
 {% assign faculty = site.data.people.faculty | sort: "lastname" %}
 
-<ul>
+<div class="prohealth_members">
 {% for person in faculty %}
 
-  <li>{{ person.name }}</li>
-
   {% if person.photo %}
-  <img class="headshot" src="{{ person.photo }}">
+  <img class="headshot" src="{{ person.photo }}" data-toggle="collapse" href="#{{ person.name | slugify }}-bio" aria-expanded="false" aria-controls="collapseExample" style="cursor: pointer;">
+  <div class="collapse" id="{{ person.name | slugify }}-bio">
+    <div class="card card-body" style="color: black;">
+      {{ person.bio }}
+
+      <center>
+      <br>Email: {{ person.email }}
+      {% if person.uri %}<br>Website: <a href="{{ person.uri }}">{{ person.uri }}</a>{% endif %}
+      </center>
+    </div>
+  </div>
   {% endif %}
 
 {% endfor %}
-</ul>
+</div>
 
 ## Graduate Students
 
 {% assign current_students = site.data.people.students | where: "type", "current" | sort: "join_year" %}
 
-<ul>
+<div class="prohealth_members">
 {% for student in current_students %}
 
-  <li>{{ student.name }}</li>
   {% if student.photo %}
   <img class="headshot" src="{{ student.photo }}">
   {% endif %}
 
 {% endfor %}
-</ul>
+</div>
 
 ## Alumni
 
