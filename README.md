@@ -12,7 +12,7 @@ Maintained by [Alexander L. Hayes](https://hayesall.com/), contact at hayesall@i
 1. Clone the repository from GitHub.
 
 ```bash
-git clone git@github.com:batflyer/iuprohealth.github.io.git
+git clone git@github.com:hayesall/iuprohealth.github.io.git
 cd iuprohealth.github.io
 ```
 
